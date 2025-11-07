@@ -45,12 +45,12 @@ function setPreviewImage(src) {
 // Data
 const PRODUCTS = [
   {
-    title: 'Kaligrafi',
-    category: 'Terbuat dari Pelepah Pisang',
-    desc: 'Karya kaligrafi ini dibuat dari pelepah pisang yang diolah secara kreatif menjadi media seni bernilai estetika tinggi.',
+    title: 'Kaligrafi Tempurung Kelapa',
+    category: 'Hiasan Dinding',
+    desc: 'Kaligrafi ini terbuat dari bahan dasar tempurung kelapa dan serbuk kayu. Tempurung kelapa dipecah menjadi pecahan kecil kemudian ditempelkan ke triplek dengan menggunakan lem.',
     size: '40 x 60 cm',
     technique: 'Acrylic + Gold Leaf',
-    art: 'image/kaligrafi.jpeg',
+    art: 'image/kaligrafi 1.jpg',
     components: [
       { id:'acry1', img:'image/pelepah.jpeg', label:'Acrylic Sheet', note:'Lapis dasar bening sebagai kanvas.' },
       { id:'acry2', img:'image/gold.png', label:'Gold Paint', note:'Memberi aksen kilau pada huruf.' },
@@ -60,11 +60,11 @@ const PRODUCTS = [
   },
   {
     title: 'Tumbler',
-    category: 'Kayu & Laser',
-    desc: 'Huruf kaligrafi dipotong presisi menggunakan mesin laser dan difinishing matte hitam.',
+    category: 'Botol Minuman',
+    desc: 'Tumbler ini terbuat dari bahan stainless yang dapat digunakan berulang kali, sehingga efektif dalam mengurangi sampah plastik.',
     size: '30 x 50 cm',
     technique: 'Laser Cutting + Stain',
-    art: 'image/tumbler.jpeg',
+    art: 'image/tumbler 1.jpg',
     components: [
       { id:'las1', img:'https://via.placeholder.com/400x300?text=Plywood', label:'Plywood Board', note:'Bahan utama untuk pemotongan.' },
       { id:'las2', img:'https://via.placeholder.com/400x300?text=Laser', label:'CO2 Laser', note:'Mesin potong pola kaligrafi.' },
@@ -72,12 +72,12 @@ const PRODUCTS = [
     ]
   },
   {
-    title: 'Kaligrafi Digital LED',
-    category: 'Digital Display',
-    desc: 'Kaligrafi yang ditampilkan pada panel LED, dapat beranimasi dan ganti warna untuk presentasi dinamis.',
+    title: 'Kaligrafi Pelepah Pisang',
+    category: 'Hiasan Dinding',
+    desc: 'Kaligrafi ini terbuat dari bahan dasar pelepah pisang. Pelepah pisang yang telah dikeringkan kemudian dijadikan dasar untuk menuliskan Kalam Ilahi yang indah di atas nya menggunakan pewarna alami.',
     size: 'Custom Screen',
     technique: 'LED Matrix + Microcontroller',
-    art: 'https://via.placeholder.com/680x900/0f1720/ffd67a?text=Kaligrafi+Digital',
+    art: 'image/kaligrafi 2.jpg',
     components: [
       { id:'led1', img:'https://via.placeholder.com/400x300?text=LED+Matrix', label:'LED Matrix', note:'Tampilan dinamis.' },
       { id:'led2', img:'https://via.placeholder.com/400x300?text=PCB', label:'PCB Board', note:'Rangkaian kontrol.' },
@@ -85,12 +85,12 @@ const PRODUCTS = [
     ]
   },
   {
-    title: 'Kaligrafi Vinyl Cutting',
-    category: 'Vinyl & Dekor',
-    desc: 'Kaligrafi berbahan stiker vinyl, ideal untuk dinding/kaca dengan hasil rapi dan tahan lama.',
+    title: 'Jam Meja',
+    category: 'Hiasan Meja',
+    desc: 'Jam ini terbuat dari bahan dasar plastik penutup botol. Penutup botol ini dipanaskan pada suhu tertentu menggunakan alat khusus, sehingga dapat meleleh dan dapat dicetak menjadi bentuk. Setelah terbentuk, plastik ini kemudian dipadukan dengan akar dan ranting pohon yang sudah mati untuk menjadi sebuah hiasan meja yang estetik.',
     size: '20 x 40 cm',
     technique: 'Vinyl Cutting + Transfer',
-    art: 'https://via.placeholder.com/680x900/14121a/ffd67a?text=Kaligrafi+Vinyl',
+    art: 'image/jam.jpg',
     components: [
       { id:'vin1', img:'https://via.placeholder.com/400x300?text=Vinyl', label:'Sticker Vinyl', note:'Bahan utama.' },
       { id:'vin2', img:'https://via.placeholder.com/400x300?text=Cutter', label:'Cutting Plotter', note:'Mesin pemotong detail.' },
